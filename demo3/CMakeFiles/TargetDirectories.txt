@@ -1,0 +1,6 @@
+/home/xuek/dev/cmake_demo/demo3/CMakeFiles/edit_cache.dir
+/home/xuek/dev/cmake_demo/demo3/CMakeFiles/rebuild_cache.dir
+/home/xuek/dev/cmake_demo/demo3/CMakeFiles/demo.dir
+/home/xuek/dev/cmake_demo/demo3/math/CMakeFiles/rebuild_cache.dir
+/home/xuek/dev/cmake_demo/demo3/math/CMakeFiles/edit_cache.dir
+/home/xuek/dev/cmake_demo/demo3/math/CMakeFiles/math_functions.dir

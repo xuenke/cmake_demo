@@ -1,0 +1,3 @@
+/home/xuek/dev/cmake_demo/demo1/CMakeFiles/edit_cache.dir
+/home/xuek/dev/cmake_demo/demo1/CMakeFiles/rebuild_cache.dir
+/home/xuek/dev/cmake_demo/demo1/CMakeFiles/demo.dir
