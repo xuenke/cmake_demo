@@ -1,0 +1,20 @@
+总结一下这几个demo中用到的命令
+1. cmake_minimum_required
+2. project
+3. add excutable
+   a. 第一个参数是指定生成的可执行的名称，后面的参数是参与编译的源文件
+   b. 如果只有一个源文件：add_executable(demo main.cpp)
+   c. 如果有两个：add_executable(demo main.cpp math_functions.cpp)
+   d. 如果有很多个：add_executable(demo ${DIR_SRCS}), DIR_SRCS变量中存储了我们想要的源文件
+   d. 
+4. aux_source_directory(. DIR_SRCS): 可以把当前目录下所有源文件存到变量DIR_SRCS中
+5. add_library
+   a. add_library(math_functions ${DIR_LIB_SRCS})，把DIR_LIB_SRCS变量中存储的所有源文件编译成一个静态库
+6. target_link_libraries(demo math_functions)
+   a. demo是add_executable做的一个可执行，math_funtions是一个静态库，这个命令可以把demo连接到math_functions
+   
+7. add_subdirectory
+8. include_directories
+   a. 能够把指定目录包含进来
+9. set
+

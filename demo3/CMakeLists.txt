@@ -4,7 +4,8 @@ project (demo3)
 
 # 查找当前目录下所有源文件
 # 并蒋名称保存到DIR_SRCS变量
-aux_source_directory(. DIR_SRCS)
+# 这个在这里没啥用
+#aux_source_directory(. DIR_SRCS)
 
 # 添加math子目录, 这使得math文件夹下的CMakeLists.txt和源码也会被处理
 add_subdirectory(math)
